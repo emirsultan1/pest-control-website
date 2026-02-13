@@ -783,7 +783,7 @@ header.main-header .header-sticky.active{
 .hero{
 	position: relative;
 	padding: 300px 0 150px;
-	background-image: url('../images/image_1.jpg');
+	background-image: url('../images/main_page.jpg');
 	margin-top: 20px;
 	overflow: hidden;
 }
@@ -12916,6 +12916,46 @@ html[dir="rtl"] .about-us-content{
     object-fit: contain;
 }
 
+/* FIX checkmark spacing for RTL */
+.process-body-list ul li {
+    padding-left: 0 !important;
+    padding-right: 28px !important;
+}
+
+.process-body-list ul li::before {
+    left: auto !important;
+    right: 0 !important;
+    top: 0.2em;
+}
+
+/* === FIX CHECKMARK SPACING RTL (FINAL) === */
+.process-body-list ul li {
+    padding-left: 0 !important;
+    padding-right: 30px !important;
+}
+
+.process-body-list ul li::before {
+    left: auto !important;
+    right: 0 !important;
+}
+
+/* === STACK PROCESS CHECKLIST ITEMS VERTICALLY (RTL SAFE) === */
+.process-body-list ul {
+    display: block !important;
+}
+
+.process-body-list ul li {
+    display: block !important;
+    margin-bottom: 10px;
+}
+
+.page-contact-us {
+    margin-top: 120px;
+}
+
+.page-contact-us {
+    padding-top: 120px;
+}
 
 
 
