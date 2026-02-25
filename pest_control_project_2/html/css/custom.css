@@ -783,7 +783,7 @@ header.main-header .header-sticky.active{
 .hero{
 	position: relative;
 	padding: 300px 0 150px;
-	background-image: url('../images/main_page.jpg');
+	background-image: url('../images/main_page.webp');
 	margin-top: 20px;
 	overflow: hidden;
 }
